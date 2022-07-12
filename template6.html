@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #douter{
+            background-color: grey;
+            height: 600px;
+            width: 100%;
+        }
+        #dheader{
+            text-align: center;
+            height: 50px;
+            width: 100%;
+            border-bottom: 2px solid black;
+
+        }
+        
+        #dleft{
+            background-color: grey;
+            float: left;
+            width:20%;
+            border-right: 2px solid black;
+            height: 600px;
+
+        }
+        #dlborder{
+            border-right: 4px solid black;
+            float: left;
+            
+        }
+        #dcenter{
+            background-color: palegreen;
+            height: 600px;
+            width: 79.5%;
+            float:left;
+            border-bottom: 3px solid black;
+        }
+        #dcupper{
+        
+            display:flex;
+            justify-content: center;
+            height:90%;
+            width:70%;
+            text-align: center;
+            
+        }
+        #trbutton{
+            display: flex;
+            justify-content: center;
+            padding-top: 20%;
+            padding-left: 20%;
+        }
+        #box1{
+            height: 30%;
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+            margin-left: 10%;
+        }
+
+        #box2{
+           
+            height: 30%;
+            width:80%;
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+            
+            margin-left: 10%;
+            
+            
+        }
+        #dclower{
+            height:90%;
+            width:70%;
+           display:flex;
+           justify-content: center;
+        }
+        #divHead{
+            height: 10%;
+            width: 100%;
+            text-align: center;
+            
+        }
+        #divMiddleHead{
+            height:10%;
+            width: 100%;
+            text-align: center;
+        }
+        #dfooter{
+            height: 50px;
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            background-color: grey;
+        }
+        
+        .imgstyle{
+            height: 50px;
+             width: 10%;
+              margin-right: 10px;
+               margin-top: 5px;
+        }
+        .space{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="douter">
+        <div id="dheader">
+          <h1>Assignment 7</h1>
+        </div>
+        
+       
+        <div id="dleft">
+            <ul>
+                <h2><li type="none">Home</li><br>
+                <li type="none">Mad Lib</li><br>
+                <li type="none">Tom Thumb</li></h2>
+            </ul>
+        </div>
+        
+        <div id="dcenter">
+            <div id="divHead">
+            <h1>Mad libs</h1>
+            </div>
+            <div id="box1">
+            <div id="dcupper">
+                <table>
+                    <tr>
+                        <td class="space"><b>Person name:</b></td>
+                        <td><input type="text" placeholder="superman"</td>
+                    </tr>
+                    <tr>
+                        <td class="space"><b>Character:</b></td>
+                        <td><input type="text" placeholder="Batman"</td>
+                    </tr>
+                    <tr>
+                        <td class="space"><b>Adverb:</b></td>
+                        <td><input type="text" placeholder="Quickly"</td>
+                    </tr>
+                    <tr>
+                        <td class="space"><b>Adjective:</b></td>
+                        <td><input type="text" placeholder="mean"</td>
+                    </tr>
+                    <tr id="trbutton">
+                        <td>
+                            <button type="button">Tell Story</button>
+                        </td>
+
+                    </tr>
+                </table>
+                
+            </div>
+            </div>
+            <div id="divMiddleHead">
+                <h1>Wendy crazy march lenzy's</h1>
+            </div>
+            <div id="box2">
+                
+            <div id="dclower">
+                
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Rerum ea minima impedit
+                     natus molestiae eaque dolores id provident beatae <br>ipsa labore placeat acc
+                     usantium veniam facere illum est, accusamus unde esse.</p>
+
+            </div>
+            </div>
+
+        </div>
+        <div id="dfooter">
+            <img src="3.png" class="imgstyle">
+            <img src="4.jpg" class="imgstyle">
+        </div>
+    </div>  
+    </div>      
+</body>
+</html>
